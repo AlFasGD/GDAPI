@@ -5,13 +5,13 @@ namespace GDAPI.Objects.GeometryDash.General
     /// <summary>Represents the color of a guideline.</summary>
     public struct GuidelineColor : IComparable<GuidelineColor>
     {
-        /// <summary>Represents the value of the orange color in the guideline.</summary>
-        public const float TransparentValue = 0.7f;
-        /// <summary>Represents the value of the yellow color in the guideline.</summary>
-        public const float OrangeValue = 0.8f;
-        /// <summary>Represents the value of the green color in the guideline.</summary>
-        public const float YellowValue = 0.9f;
         /// <summary>Represents the value of the transparent color in the guideline. It is a hidden game feature, where invisible guidelines may be created.</summary>
+        public const float TransparentValue = 0.7f;
+        /// <summary>Represents the value of the orange color in the guideline.</summary>
+        public const float OrangeValue = 0.8f;
+        /// <summary>Represents the value of the yellow color in the guideline.</summary>
+        public const float YellowValue = 0.9f;
+        /// <summary>Represents the value of the green color in the guideline.</summary>
         public const float GreenValue = 1f;
 
         /// <summary>An instance of the transparent guideline color.</summary>
