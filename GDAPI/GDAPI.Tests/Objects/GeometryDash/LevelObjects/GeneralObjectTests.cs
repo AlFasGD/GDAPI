@@ -61,8 +61,10 @@ namespace GDAPI.Tests.Objects.GeometryDash.LevelObjects
             AnalyzeInstance<CameraOffsetTrigger>((int)TriggerType.CameraOffset);
             AnalyzeInstance<ReverseTrigger>((int)TriggerType.Reverse);
             AnalyzeInstance<EndTrigger>((int)TriggerType.End);
-            AnalyzeInstance<UnknownSubzeroTrigger>((int)TriggerType.UnknownSubzero);
+            AnalyzeInstance<StopJumpTrigger>((int)TriggerType.StopJump);
             AnalyzeInstance<ScaleTrigger>((int)TriggerType.Scale);
+            AnalyzeInstance<SongTrigger>((int)TriggerType.Song);
+            AnalyzeInstance<TimeWarpTrigger>((int)TriggerType.TimeWarp);
             #endregion
 
             #region Speed Portals

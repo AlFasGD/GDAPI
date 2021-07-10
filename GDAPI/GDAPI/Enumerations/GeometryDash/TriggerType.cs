@@ -96,11 +96,17 @@ namespace GDAPI.Enumerations.GeometryDash
         /// <summary>Represents the Object ID value of the End trigger.</summary>
         [FutureProofing("2.2")]
         End = 1931,
-        /// <summary>Represents the Object ID value of a trigger that was included in Subzero but has no properties and its functionality is unknown.</summary>
+        /// <summary>Represents the Object ID value of the Stop Jump trigger.</summary>
         [FutureProofing("2.2")]
-        UnknownSubzero = 1932,
+        StopJump = 1932,
         /// <summary>Represents the Object ID value of the Scale trigger. (Reserved for future use)</summary>
         [FutureProofing("2.2")]
         Scale = -11,
+        /// <summary>Represents the Object ID value of the Song trigger. (Reserved for future use)</summary>
+        [FutureProofing("2.2")]
+        Song = -12,
+        /// <summary>Represents the Object ID value of the TimeWarp trigger. (Reserved for future use)</summary>
+        [FutureProofing("2.2")]
+        TimeWarp = -13,
     }
 }
